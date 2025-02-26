@@ -2,7 +2,7 @@
 // services/api.js
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://appointment-booking-system-backend.onrender.com/api";
 
 // Create axios instance with interceptors for better error handling
 const api = axios.create({
